@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url(BackGroundPwebResponsi.jpeg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 350vh;
+}
+
+header {
+  color: rgb(66, 57, 27);
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  font-size: larger;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: rgb(66, 57, 27);
+  margin: 0 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#books-section {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: White;
+}
+
+#order-section {
+  background-color: rgb(198, 189, 201);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(66, 57, 27);
+  font-size: 35px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+form label,
+form input {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #a689a2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.1em;
+}
+
+button:hover {
+  background-color: #37153b;
+}
+
+#book-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#book-list img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+#book-list div {
+  font-size: 1rem;
+}
